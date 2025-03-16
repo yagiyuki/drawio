@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="ページ1" id="iO5T70pztOdIke-3gILq">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="1988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-42" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="228" y="-166" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-43" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 100px;&quot;&gt;������️&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-190" width="66" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-48" value="������ データベース&#xa;（社内文書などのテキスト）" style="rounded=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#4A4A4A;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="552" y="-269" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-49" value="������ LLM（大規模言語モデル）" style="rounded=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#61A8FF;" vertex="1" parent="1">
+          <mxGeometry x="552" y="-75" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-50" value="① 質問を入力" style="edgeStyle=none;strokeColor=#000000;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="273" y="-160" as="sourcePoint" />
+            <mxPoint x="353" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-51" value="② データ取得" style="edgeStyle=none;strokeColor=#000000;fontSize=14;" edge="1" parent="1" target="HeR8jaqwLgiQG3WugKG_-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="472" y="-139" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-52" value=" " style="edgeStyle=none;strokeColor=#000000;" edge="1" parent="1" source="HeR8jaqwLgiQG3WugKG_-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="472" y="-139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-53" value="③ 回答を生成" style="edgeStyle=none;strokeColor=#000000;fontSize=14;" edge="1" parent="1" target="HeR8jaqwLgiQG3WugKG_-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="472" y="-125" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-54" value=" " style="edgeStyle=none;strokeColor=#000000;" edge="1" parent="1" source="HeR8jaqwLgiQG3WugKG_-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="472" y="-125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-55" value="④ 回答の出力" style="edgeStyle=none;strokeColor=#000000;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353" y="-103" as="sourcePoint" />
+            <mxPoint x="273" y="-103" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-56" value="������ 検索" style="whiteSpace=wrap;fontSize=18;fontColor=#4A4A4A;" vertex="1" parent="1">
+          <mxGeometry x="552" y="-299" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-57" value="✨ 生成" style="whiteSpace=wrap;fontSize=18;fontColor=#007AFF;" vertex="1" parent="1">
+          <mxGeometry x="554" y="4" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-59" value="ツール" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="392" y="-75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-61" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="-117" as="sourcePoint" />
+            <mxPoint x="270" y="-117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HeR8jaqwLgiQG3WugKG_-62" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="-140" as="sourcePoint" />
+            <mxPoint x="360" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
